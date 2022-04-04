@@ -1,9 +1,9 @@
 
 
 const sidebar = () => {
-    return <div>
+    return <>
         <div className="othernews">Otras noticias</div>
-    </div>;
+    </>;
 }
 
 export default sidebar;
