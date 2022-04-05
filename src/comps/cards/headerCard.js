@@ -1,7 +1,10 @@
 import './headerCard.css';
 
 function headerCard(props){
-    const classes = 'logo ' + 'banner';
+    let classes = 'header-card';
+    if (props.className) {
+        classes += ' ' + props.className;
+    }
     return <div className={classes}>{props.children}</div>
 }
 

@@ -3,28 +3,11 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 150px 50px 300px 200px;
     grid-template-areas: 
-    "logo banner banner banner"
+    "header header header header"
     "nav nav nav nav"
     "notp notp notp other"
     "nots1 nots2 nots3 other"
     ;
-}
-/* .header-container{
-    display: flex;
-} */
-
-.logo{
-    grid-area: logo;
-    background-color: red;
-    border: 5px solid black;
-    /* width: 100%; */
-}
-
-.banner{
-    grid-area: banner;
-    background-color: yellow;
-    border: 5px solid black;
-    /* width: 100%; */
 }
 
 nav{

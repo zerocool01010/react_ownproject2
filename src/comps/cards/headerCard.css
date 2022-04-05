@@ -1,11 +1,9 @@
-.logo{
-    grid-area: logo;
-    background-color: red;
+.header-card{
     border: 5px solid black;
-}
-
-.banner{
-    grid-area: banner;
-    background-color: yellow;
-    border: 5px solid black;
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas: 
+    "logo banner banner banner"
+    ;
 }

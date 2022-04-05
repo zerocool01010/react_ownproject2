@@ -1,0 +1,9 @@
+.logo{
+    grid-area: logo;
+    background-color: red;
+}
+
+.banner{
+    grid-area: banner;
+    background-color: yellow;
+}
