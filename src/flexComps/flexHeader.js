@@ -1,8 +1,8 @@
 
 const flexHeader = () => {
-    return <div className="header">
-                <div className='logo'>Logo</div>
-                <div className='banner'>Banner</div>
+    return <div className="headerFlex">
+                <div className='logoFlex'>Logo</div>
+                <div className='bannerFlex'>Banner</div>
     </div>;
 }
 

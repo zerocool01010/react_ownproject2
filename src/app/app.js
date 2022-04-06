@@ -1,13 +1,14 @@
 import { Routes, Route } from "react-router-dom";
-import '../css/style.css';
-import Home from '../pages/Home';
+import Grid from '../pages/Grid';
 import Flex from '../pages/Flex';
+import Home from '../pages/Home';
 
 const App = () => {
 
     return (<Routes>
         <Route path="/" element={<Home />} />
-        <Route path="flex" element={<Flex />} />
+        <Route path="/grid" element={<Grid />} />
+        <Route path="/flex" element={<Flex />} />
     </Routes>)
 }
 

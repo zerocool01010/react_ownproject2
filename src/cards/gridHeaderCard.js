@@ -1,7 +1,6 @@
-import './headerCard.css';
 
 function headerCard(props){
-    let classes = 'header-card';
+    let classes = 'header-cardGrid';
     if (props.className) {
         classes += ' ' + props.className;
     }

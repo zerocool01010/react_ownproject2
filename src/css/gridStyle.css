@@ -1,0 +1,89 @@
+.containerGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 50px 300px 200px;
+    grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    "notp notp notp other"
+    "nots1 nots2 nots3 other"
+    ;
+}
+
+.header-cardGrid{
+    border: 5px solid black;
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas: 
+    "logo banner banner banner"
+    ;
+}
+
+.logoGrid{
+    grid-area: logo;
+    background-color: red;
+    border: 5px solid black;
+    /* width: 100%; */
+}
+
+.bannerGrid{
+    grid-area: banner;
+    background-color: yellow;
+    border: 5px solid black;
+    /* width: 100%; */
+}
+
+.navGrid{
+    grid-area: nav;
+    background-color: green;
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". item1 item2 item3 item4"
+    ;
+}
+
+.el1Grid{
+    grid-area: item1;
+}
+.el2Grid{
+    grid-area: item2;
+}
+.el3Grid{
+    grid-area: item3;
+}
+.el4Grid{
+    grid-area: item4;
+}
+
+.centralnewsGrid{
+    grid-area: notp;
+    background-color: pink;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.secnews1Grid{
+    grid-area: nots1;
+    background-color: aquamarine;
+    border: 5px solid black;
+}
+.secnews2Grid{
+    grid-area: nots2;
+    background-color: brown;
+    border: 5px solid black;
+}
+.secnews3Grid{
+    grid-area: nots3;
+    background-color: grey;
+    border: 5px solid black;
+}
+.othernewsGrid{
+    grid-area: other;
+    background-color: orangered;
+    border: 5px solid black;
+}

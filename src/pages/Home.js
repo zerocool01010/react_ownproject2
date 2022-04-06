@@ -1,18 +1,11 @@
 import React from 'react';
-import Header from '../comps/header';
-import Nav from '../comps/nav';
-import NewsSection from '../comps/news';
-import Sidebar from '../comps/sidebar';
+import {Link} from "react-router-dom";
 
 const Home = () => {
-
-    return <div className='container'>
-        <Header></Header>
-        <Nav />
-        <NewsSection />
-        <Sidebar />
-    </div>;
-
+    return <>
+    <button><Link to='/flex'>Redirigir a Flex</Link></button>
+    <button><Link to='/grid'>Redirigir a Grid</Link></button>
+    </>;
 }
 
 export default Home;

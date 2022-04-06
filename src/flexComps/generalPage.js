@@ -4,7 +4,7 @@ import FlexNews from './flexNews';
 
 const generalPage = () => {
 
-    return <div className="container">
+    return <div className="containerFlex">
                 <FlexHeader/>
                 <FlexNavigator/>
                 <FlexNews/>
