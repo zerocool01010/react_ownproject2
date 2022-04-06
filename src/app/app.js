@@ -1,22 +1,15 @@
-/* import Header from '../comps/header';
-import Navbar from '../comps/nav';
-import News from '../comps/news';
-import Sidebar from '../comps/sidebar'; */
+import { Routes, Route } from "react-router-dom";
 import '../css/style.css';
-import Header from '../comps/header';
-import Nav from '../comps/nav';
-import NewsSection from '../comps/news';
-import Sidebar from '../comps/sidebar';
-
-/* import Headercard from '../comps/cards/headerCard'; */
+import Home from '../pages/Home';
+import Flex from '../pages/Flex';
 
 const App = () => {
-return <div className='container'>
-        <Header></Header>
-        <Nav/>
-        <NewsSection/>
-        <Sidebar/>
-</div>;
+
+    return (<Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="flex" element={<Flex />} />
+    </Routes>)
 }
+
 
 export default App;
