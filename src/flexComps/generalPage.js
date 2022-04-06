@@ -27,7 +27,7 @@ const generalPage = () => {
                     </div>
                     <div className="othernews">Otras noticias</div>
                 </div>
-    </div>;
+            </div>;
 }
 
 export default generalPage;
