@@ -1,9 +1,19 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    height: 100px;
+    border: 5px solid black;
+}
+
 .logo{
-    grid-area: logo;
     background-color: red;
+    width: 25%;
+    border-right: 2.5px solid grey;
 }
 
 .banner{
-    grid-area: banner;
     background-color: yellow;
+    width: 75%;
+    border-left: 2.5px solid black;
 }

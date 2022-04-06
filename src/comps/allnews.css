@@ -1,0 +1,54 @@
+.allnews{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.imp-news{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.centralnews{
+    background-color: pink;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 2px 2px 2px 2px;
+}
+
+.secondary-news{
+    display: flex;
+    height: 155px;
+    flex-direction: row;
+    width: 100%;
+}
+
+.secnews1{
+    display: flex;
+    background-color: aquamarine;
+    border: 5px solid black;
+    width: 50%;
+}
+.secnews2{
+    display: flex;
+    background-color: brown;
+    border: 5px solid black;
+    width: 25%;
+}
+.secnews3{
+    display: flex;
+    background-color: grey;
+    border: 5px solid black;
+    width: 25%;
+}
+.othernews{
+    display: flex;
+    background-color: orangered;
+    border: 5px solid black;
+    width: 25%;
+}

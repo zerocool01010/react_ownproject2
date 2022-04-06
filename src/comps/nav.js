@@ -1,3 +1,4 @@
+import '../comps/nav.css';
 
 const nav = () => {
     return <nav>

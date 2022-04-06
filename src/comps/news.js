@@ -1,3 +1,4 @@
+import './allnews.css';
 
 const news = () => {
     return <>

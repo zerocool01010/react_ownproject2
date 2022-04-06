@@ -1,11 +1,11 @@
 import React from 'react';
+import GeneralPage from '../flexComps/generalPage';
 
 const Flex = () => {
 
     return (
-        <div>
-            <h1>FLEX PAGE</h1>
-        </div>
+        <GeneralPage>
+        </GeneralPage>
     )
 }
 
