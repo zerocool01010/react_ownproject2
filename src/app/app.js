@@ -8,8 +8,6 @@ import Nav from '../comps/nav';
 import NewsSection from '../comps/news';
 import Sidebar from '../comps/sidebar';
 
-/* import Headercard from '../comps/cards/headerCard'; */
-
 const App = () => {
 return <div className='container'>
         <Header></Header>

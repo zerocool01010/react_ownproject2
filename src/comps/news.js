@@ -1,3 +1,4 @@
+import './newssidebar.css' 
 
 const news = () => {
     return <>

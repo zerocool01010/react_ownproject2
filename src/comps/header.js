@@ -1,15 +1,15 @@
 /* import HeaderCard from './cards/headerCard'; */
 /* import '../css/style.css'; */
 import './header.css';
-import HeaderCard from './cards/headerCard';
+import Card from './cards/headerCard';
 
-const header = () => {
+const Header = () => {
     
-    return <HeaderCard>
+    return <Card>
     <div className='logo'>Logo</div>
     <div className='banner'>Banner</div>
-    </HeaderCard>
+    </Card>
     ;
 }
 
-export default header;
+export default Header;

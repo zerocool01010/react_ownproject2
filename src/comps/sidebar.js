@@ -1,3 +1,4 @@
+import './newssidebar.css' 
 
 const sidebar = () => {
     return <div className="othernews">Otras noticias</div>;

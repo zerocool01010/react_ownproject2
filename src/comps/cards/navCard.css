@@ -1,0 +1,9 @@
+.navCard{
+    grid-area: nav;
+    background-color: green;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". item1 item2 item3 item4"
+    ;
+}
